@@ -24,7 +24,7 @@ onSearchChange = (event) => {
     return (
       <div className='tc'>
         <h1>RoboFriends</h1>
-        <SearchBox searchChange={this.onSearchChange}/>
+        <SearchBox searchChange={this.onSearchChange}  />
         <CardList robots={filteredRobots} />
       </div>
     )
